@@ -1,0 +1,15 @@
+{
+    "framework": "jasmine",
+    "libs": [],
+    "coverageFilters": [],
+    "scenarios": [
+        {
+            "libs": [],
+            "coverageFilters": [],
+            "sandbox": true,
+            "directory": "validationScenario",
+            "name": "validationScenario"
+        }
+    ],
+    "subjectUrl": "http://senchatutorials.in/"
+}

@@ -1,0 +1,10 @@
+[
+    {
+        "browserName": "chrome",
+        "version": "52",
+        "sencha": {
+            "concurrency": 1
+        },
+        "platform": "LINUX"
+    }
+]

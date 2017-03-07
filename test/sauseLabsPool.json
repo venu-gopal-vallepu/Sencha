@@ -1,0 +1,19 @@
+[
+    {
+        "browserName": "chrome",
+        "version": "55",
+        "sencha": {
+            "concurrency": 1
+        },
+        "platform": "Windows 2012",
+        "screenResolution": "1024x768"
+    },
+    {
+        "browserName": "firefox",
+        "version": "47",
+        "sencha": {
+            "concurrency": 1
+        },
+        "platform": "Mac 10.10"
+    }
+]

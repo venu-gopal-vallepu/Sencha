@@ -1,0 +1,44 @@
+{
+    "name": "SenchaTutorials",
+    "build": {
+        "dir": "${workspace.dir}/build"
+    },
+    "packages": {
+        "dir": "${workspace.dir}/packages/local,${workspace.dir}/packages",
+        "extract": "${workspace.dir}/packages/remote"
+    },
+    "tests": {
+        "path": "test/project.json",
+        "browser": {
+            "farms": [
+                {
+                    "name": "TestWithRemoteBrowsers",
+                    "type": "generic",
+                    "host": "localhost",
+                    "port": 4444,
+                    "pools": [
+                        {
+                            "name": "TestPool",
+                            "path": "TestPool.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "Sauce Labs",
+                    "type": "saucelabs",
+                    "host": "ondemand.saucelabs.com",
+                    "port": 80,
+                    "username": "divya05",
+                    "accessKey": "41c5b546-ec60-4469-be66-375a7a7d7022",
+                    "sessionLimit": null,
+                    "pools": [
+                        {
+                            "name": "sauseLabsPool",
+                            "path": "test/sauseLabsPool.json"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
