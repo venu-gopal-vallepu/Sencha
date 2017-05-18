@@ -1,0 +1,15 @@
+{
+    "id": 2,
+    "children": [
+        {
+            "name": "testLogin.js",
+            "type": "file",
+            "dir": "testLogin.js",
+            "id": 3,
+            "chrome58linux": 1
+        }
+    ],
+    "name": "validationScenario",
+    "type": "dir",
+    "chrome58linux": 1
+}

@@ -1,0 +1,20 @@
+{
+    "id": 5,
+    "children": [
+        {
+            "id": 6,
+            "name": "should pass valid credentials",
+            "type": "test",
+            "chrome58linux": true,
+            "details": [
+                {
+                    "browser": "chrome58linux",
+                    "expectations": []
+                }
+            ]
+        }
+    ],
+    "name": "testLogin",
+    "type": "suite",
+    "chrome58linux": 0
+}

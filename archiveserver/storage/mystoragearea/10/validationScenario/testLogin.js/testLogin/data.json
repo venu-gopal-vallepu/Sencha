@@ -1,0 +1,31 @@
+{
+    "id": 5,
+    "children": [
+        {
+            "id": 6,
+            "name": "should pass valid credentials",
+            "type": "test",
+            "chrome58linux": false,
+            "details": [
+                {
+                    "browser": "chrome58linux",
+                    "expectations": [
+                        {
+                            "passed": false,
+                            "message": "Expected 1 to be 2.",
+                            "status": "failed"
+                        },
+                        {
+                            "passed": false,
+                            "message": "Timeout waiting for hasCls to be true for ST.future.Field",
+                            "status": "failed"
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "name": "testLogin",
+    "type": "suite",
+    "chrome58linux": 1
+}

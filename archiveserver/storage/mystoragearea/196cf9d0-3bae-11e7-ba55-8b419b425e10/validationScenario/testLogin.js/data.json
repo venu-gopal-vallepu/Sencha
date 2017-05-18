@@ -1,0 +1,15 @@
+{
+    "id": 3,
+    "children": [
+        {
+            "name": "testLogin",
+            "type": "suite",
+            "dir": "testLogin",
+            "id": 5,
+            "chrome58linux": 0
+        }
+    ],
+    "name": "testLogin.js",
+    "type": "file",
+    "chrome58linux": 0
+}

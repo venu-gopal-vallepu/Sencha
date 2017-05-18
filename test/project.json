@@ -8,7 +8,8 @@
             "coverageFilters": [],
             "sandbox": true,
             "directory": "validationScenario",
-            "name": "validationScenario"
+            "name": "validationScenario",
+            "globals": "*"
         }
     ],
     "subjectUrl": "http://senchatutorials.in/"

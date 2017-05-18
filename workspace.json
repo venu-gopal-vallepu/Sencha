@@ -12,18 +12,6 @@
         "browser": {
             "farms": [
                 {
-                    "name": "TestWithRemoteBrowsers",
-                    "type": "generic",
-                    "host": "localhost",
-                    "port": 4444,
-                    "pools": [
-                        {
-                            "name": "TestPool",
-                            "path": "TestPool.json"
-                        }
-                    ]
-                },
-                {
                     "name": "Sauce Labs",
                     "type": "saucelabs",
                     "host": "ondemand.saucelabs.com",
@@ -33,12 +21,26 @@
                     "sessionLimit": null,
                     "pools": [
                         {
-                            "name": "sauseLabsPool",
+                            "name": "SauceLabs pool",
                             "path": "test/sauseLabsPool.json"
+                        }
+                    ]
+                },
+                {
+                    "name": "Generic WebDriver",
+                    "type": "generic",
+                    "host": "localhost",
+                    "port": 4444,
+                    "pools": [
+                        {
+                            "name": "webdriverPool",
+                            "path": "webdriverPool.json"
                         }
                     ]
                 }
             ]
-        }
+        },
+        "archiveRoot": "/mystoragearea",
+        "archiveServer": "http://localhost:1903"
     }
 }

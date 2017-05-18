@@ -1,0 +1,28 @@
+{
+    "children": [
+        {
+            "name": "validationScenario",
+            "type": "dir",
+            "dir": "validationScenario",
+            "id": 2,
+            "chrome58linux": 1
+        }
+    ],
+    "scenarios": [
+        {
+            "path": "validationScenario"
+        }
+    ],
+    "browsers": [
+        {
+            "id": "chrome58linux",
+            "canonicalName": "chrome",
+            "version": 58,
+            "canonicalPlatform": "linux",
+            "displayName": "Chrome",
+            "displayPlatform": "LINUX"
+        }
+    ],
+    "chrome58linux": 1,
+    "maxId": 6
+}
